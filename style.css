@@ -59,3 +59,21 @@ img.hue-normal{
 img.hue-wrap{
     filter: hue-rotate(480deg);
 }
+
+
+img.partially-inverted{
+    filter: invert(80%);
+}
+
+img.fully-inverted{
+    filter: invert(100%);
+}
+
+
+img.partially-sapia{
+    filter: sepia(30%);
+}
+
+img.complete-sapia{
+    filter: sepia(100%);
+}
